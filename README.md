@@ -1,3 +1,3 @@
-# curso-react-fernandoherrera
+# Curso de React de cero a experto
 
-## primeros pasos
+## 01 - Primeros Pasos
