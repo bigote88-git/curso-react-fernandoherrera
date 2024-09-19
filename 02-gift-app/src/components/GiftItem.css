@@ -1,0 +1,20 @@
+.grid-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: start;
+    align-items: center;
+    background: rgba(18, 5, 116, 0.9);
+}
+
+.grid-card img{
+    min-height: 200px;
+    max-height: 300px;
+    width: 100%;
+    object-fit: fill;
+}
+
+.grid-card p{
+    text-align: center;
+    text-wrap: wrap;
+}

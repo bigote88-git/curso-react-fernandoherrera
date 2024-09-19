@@ -1,0 +1,13 @@
+
+.search-section form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchInput {
+    width: 60%;
+}
+
