@@ -1,4 +1,5 @@
-import './GiftItem.css';
+// import './GiftItem.css';
+import PropTypes from 'prop-types'; 
 
 export function GiftItem({ title, url }){
 
@@ -8,4 +9,9 @@ export function GiftItem({ title, url }){
             <p>{title}</p>
         </div>   
     )
+}
+
+GiftItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired
 }

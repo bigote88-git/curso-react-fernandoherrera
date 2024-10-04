@@ -1,5 +1,6 @@
-import './SearchComponent.css'
+// import './SearchComponent.css'
 import { useState } from "react"
+import PropTypes, { func } from 'prop-types'
 
 export function SearchComponent ({ onHandleCategory }){
     
@@ -31,4 +32,8 @@ export function SearchComponent ({ onHandleCategory }){
             </form>
         </section>
     )
+}
+
+SearchComponent.propTypes = {
+    onHandleCategory: func.isRequired
 }
