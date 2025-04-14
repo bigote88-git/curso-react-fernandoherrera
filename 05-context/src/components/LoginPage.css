@@ -1,0 +1,23 @@
+
+form{
+    width: 350px;
+    margin-inline: auto;
+    border: 1px dotted #126dd4;
+    border-radius: 5px;
+    padding-inline: 10px;
+    padding-block: 20px;
+    
+}
+
+.input_line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 3rem;
+}
+
+.input_line input{
+    border: 1px solid #126dd4;
+    padding: .5rem;
+    border-radius: 5px;
+}

@@ -11,7 +11,7 @@ import './index.css'
 export const HookApp = () => {
     return (
         <main className='main-container'>
-            <h1 className="title-app">HookApp</h1>            
+            <h1 className="title-app">HookApp</h1>
             {/* <CustomCounterApp /> */}
             {/* <MultipleCustomHook /> */}
             {/* <FocusScreen /> */}
